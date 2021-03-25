@@ -233,7 +233,7 @@ const rotate = (dir, piece) => {
 }
 
 //seting position of a piece
-let gameGrid = createGrid(30, 18);
+let gameGrid = createGrid(25, 15);
 
 const setPosition = (player, gameGrid) => {
     for (let i = 0; i < player.piece.length; i++){
@@ -271,6 +271,7 @@ start.addEventListener('click', (e) => {
 
 const stopAnimation = () => {
     cancelAnimationFrame(animation)
+    cancelAnimationFrame(animation)
     document.animation=false
 }
 stop.addEventListener('click',stopAnimation
@@ -280,6 +281,7 @@ restart.addEventListener('click', () => {
         i.fill(0)
     }
     score = 0;
+    pieceMover();
 })
 
 

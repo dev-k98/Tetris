@@ -65,8 +65,8 @@ body{
 }
 
 .game-cont{
-    min-height: 600px;
-    min-width: 360px; 
+    min-height: 500px;
+    min-width: 300px; 
     background-color:#202020;
     border : 3px solid rgb(0, 0, 0);
     box-shadow: 5px 5px 10px rgb(0, 0, 0),-5px -5px 10px rgb(0, 0, 0);
