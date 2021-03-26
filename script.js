@@ -63,7 +63,7 @@ const gameGridCheck = () => {
     outer: for (let i = gameGrid.length - 1; i >1 ; i--) {
         for (let j = 0; j < gameGrid[i].length; j++) {
             if (gameGrid[i][j] === 0) {
-                continue outer;
+                break outer;
             }
         }
         // let row = gameGrid.splice(i, 1)[0].fill(0);
